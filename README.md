@@ -65,6 +65,7 @@ main -> contains latest changes
 ```
 By default when backend is started , 5 trucks are seeded using sql file.
 I have assumed that we already have a list of trucks and the truck drivers just need to select the particular truck and update the status/location.
+The location is auto fetched using geo location js.
 ```
 
 ## Futher enhancements
