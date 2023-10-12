@@ -14,7 +14,7 @@ const Paginate = (page: Page) => {
                 <button onClick={page.previousPage} className="page-number">
                     Prev
                 </button>
-                <button onClick={page.nextPage} disabled={page.currentPage + 1 == page.totalPages} className="page-number">
+                <button onClick={page.nextPage} disabled={page.currentPage + 1 === page.totalPages} className="page-number">
                     Next
                 </button>
             </ul>
